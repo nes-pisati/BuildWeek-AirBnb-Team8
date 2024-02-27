@@ -1,0 +1,135 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    padding-top: 1.5%;
+}
+
+.logo img {
+    max-width: 118px;
+    width: 100%;
+}
+
+.right-wrapper a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 0.7em;
+}
+
+h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.main-info p {
+    color: #696969;
+    font-size: 0.8em;
+}
+
+strong {
+    color: black;
+}
+
+.images-wrapper {
+    height: 443px!important;
+}
+
+.main-image img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.small-images-wrapper {
+    height: 100%;
+}
+
+.small-image {
+    height: 50%;
+}
+
+.small-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-two img{
+    border-top-right-radius: 20px;
+}
+
+.image-four img {
+    border-bottom-right-radius: 20px;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.host-info p {
+    color: #696969;
+}
+
+.host-info a {
+    text-decoration: none;
+    color: #696969;
+    font-weight: bold;
+}
+
+.general-info h5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.general-info p {
+    color: #696969;
+    font-size: 0.9em;
+}
+
+.general-info i {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:600px){
+
+    .images-wrapper {
+        height: 500px!important;
+        display: flex;
+        align-items: center;
+    }
+
+    .main-image img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+    }
+    
+    .small-images-wrapper {
+        height: 50%;
+    }
+    
+    .small-image {
+        height: 50%;
+    }
+    
+    .small-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .image-two img{
+        border-top-right-radius: 0px;
+    }
+
+    .image-three img {
+        border-bottom-left-radius: 20px;
+    }
+    
+    .image-four img {
+        border-bottom-right-radius: 20px;
+    }
+}
