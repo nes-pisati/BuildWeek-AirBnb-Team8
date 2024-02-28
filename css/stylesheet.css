@@ -1,0 +1,72 @@
+#logo{
+    max-width: 118px;
+    width: 100%;
+}
+
+.padding-nav{
+    padding: 15px 40px;
+}
+
+nav h3, 
+nav i{
+    color: rgb(188, 188, 188);
+    font-size: 15px;
+}
+
+
+#user-logo{
+    font-size: 2em;
+    background-color: white;
+    color: rgb(101, 101, 101);
+}
+
+#bar-user{
+    background-color: white;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+#bar{
+    color: rgb(101, 101, 101);
+}
+
+#globe{
+    color: white;
+}
+
+nav h3:hover{
+    color: white;
+}
+
+#search-bar{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    translate: 50% 50%
+}
+
+#h3-bar{
+    font-size: small;
+    color: #222222;
+    font-weight: bold;
+}
+
+#p-bar{
+    color: grey;
+}
+
+#search-icon{
+    background-color: #E31C5E;
+    width: 40px;
+    height: 40px;
+    padding-left: 13px;
+}
+
+#img-home{
+    max-width: 10000x;
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+}
+
