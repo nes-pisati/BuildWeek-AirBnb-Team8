@@ -70,3 +70,26 @@ nav h3:hover{
     object-fit: cover;
 }
 
+#search-bar1{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    right: 100px;
+}
+
+#search-bar2{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    right: 220px;
+}
+
+#search-bar3{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    translate: 15%;
+}
