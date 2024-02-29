@@ -25,15 +25,14 @@
                         </div>
                         <div class="right-wrapper d-flex gap-3 align-items-center ">
                             <a href="#">Become a host</a>
-                            <div class="language" style="width: 22px; height: 22px; background-color: aqua;">
-
+                            <div class="language">
+                                <i class="fa-solid fa-globe"></i>
                             </div>
-
-                            <div class="burger" style="width: 22px; height: 22px; background-color: aqua;">
-
+                            <div class="burger ">
+                                <i class="fa-solid fa-bars"></i>
                             </div>
-                            <div class="profile" style="width: 22px; height: 22px; background-color: red;">
-
+                            <div class="profile">
+                                <i class="fa-solid fa-face-smile"></i>
                             </div>
                         </div>
                     </div>
@@ -91,8 +90,8 @@
                 </div>
             </div>
 
-            <div class="row general-info">
-                <div class="col-12 col-lg-6 d-flex flex-column ">
+            <div class="row general-info justify-content-center justify-content-lg-between  ">
+                <div class="col-12 col-lg-6 d-flex flex-column mb-5">
                     <div class="house d-flex align-items-center gap-4 mt-5 ">
                         <i class="fa-solid fa-house"></i>
                         <div>
@@ -129,9 +128,79 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-10 col-lg-4 reservation-form" >
+                    <div class="d-flex justify-content-between mt-4 ">
+                        <h5 class="col-6 col-lg-5 ps-4 ">Add dates to see the prices</h5>
+                        <div class="reservation-rate d-flex col-5 col-lg-4  ">
+                            <i class="fa-solid fa-star mt-1"></i>
+                            <p class="m-0 ms-lg-3 ms-2">4.0, 6 reviews</p>
+                        </div>
+                    </div>
+                    <form action="#" class="d-flex flex-wrap ps-4 pe-4 mt-3 date-form">
+                        <input type="date" class="form-date col-6 pt-2 pb-2 left-date-input">
+                        <input type="date" class="form-date col-6 pt-2 pb-2 right-date-input">
+                        <input type="text" class="col-12 pt-2 pb-2 guest-input" placeholder="Guest Number">
+                        <button id="bookingBtn" class="booking-btn mt-3 col-12 pt-3 pb-3 ">Cancel Booking</button>
+                    </form>
+                </div>
             </div>
 
+            <div class="review-field row d-flex">
+                <form action="#" class="col-8 d-flex flex-wrap ">
+                    <div class="name col-7">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" class="">
+                    </div>
+                    <div class="rating d-flex flex-column col-3 ">
+                        <label for="rating">Rating</label>
+                        <select name="rating" id="rating" class="">
+                            <option value="one">
+                                <i class="fa-solid fa-star mt-1"></i>
+                            </option>
+                            <option value="two"></option>
+                            <option value="three"></option>
+                            <option value="four"></option>
+                            <option value="five"></option>
+                        </select>
+                    </div>
+                    <div class="review d-flex flex-column col-12  ">
+                        <label for="review">Review</label>
+                        <input type="text" name="review" id="review" class=" ">
+                    </div>
+                </form>
+            </div>
 
+            <div class="reviews row ">
+                <div class="user-review col-12 col-lg-5 d-flex flex-column ">
+                    <div class="profile-info d-flex ">
+                        <div class="profile-pic">
+                            <img src="./airbnb-assets/assets/propic.png" alt="">
+                        </div>
+                        <div class="profile-text-info ms-3 d-flex flex-column justify-content-center ">
+                            <h6 class="m-0 ">
+                                Noemi
+                            </h6>
+                            <p class="m-0 "> Jan 2021</p>
+                        </div>
+                    </div>
+                    <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non harum numquam rerum. Rerum nostrum laudantium eos eaque non dolorem?</p>
+                </div>
+                <div class="user-review col-12 col-lg-5 d-flex flex-column ">
+                    <div class="profile-info d-flex ">
+                        <div class="profile-pic">
+                            <img src="./airbnb-assets/assets/propic.png" alt="">
+                        </div>
+                        <div class="profile-text-info ms-3 d-flex flex-column justify-content-center ">
+                            <h6 class="m-0 ">
+                                Noemi
+                            </h6>
+                            <p class="m-0 "> Jan 2021</p>
+                        </div>
+                    </div>
+                    <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non harum numquam rerum. Rerum nostrum laudantium eos eaque non dolorem?</p>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
