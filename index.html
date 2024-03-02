@@ -146,14 +146,14 @@
                 </div>
             </div>
 
-            <div class="review-field row d-flex">
-                <form action="#" class="col-8 d-flex flex-wrap ">
+            <div class="review-field row d-flex mt-5 mb-5 mt-lg-0  ">
+                <form action="#" class="col-lg-8 col-12 d-flex flex-wrap gap-2 ">
                     <div class="name col-7">
-                        <label for="name">Name</label><br>
-                        <input type="text" name="name" id="name" class="">
+                        <label for="name" class="mb-1 ">Name</label><br>
+                        <input type="text" name="name" id="name" class="col-12 " placeholder="Enter Name">
                     </div>
                     <div class="rating d-flex flex-column col-3 ">
-                        <label for="rating">Rating</label>
+                        <label for="rating" class="mb-1">Rating</label>
                         <select name="rating" id="rating" class="">
                             <option value="one">
                                 <i class="fa-solid fa-star mt-1"></i>
@@ -165,13 +165,13 @@
                         </select>
                     </div>
                     <div class="review d-flex flex-column col-12  ">
-                        <label for="review">Review</label>
-                        <input type="text" name="review" id="review" class=" ">
+                        <label for="review" class="mb-1">Review</label>
+                        <input type="text" name="review" id="review" class="comment-field" placeholder="Type in your review">
                     </div>
                 </form>
             </div>
 
-            <div class="reviews row ">
+            <div class="reviews row gap-3 mb-4 ">
                 <div class="user-review col-12 col-lg-5 d-flex flex-column ">
                     <div class="profile-info d-flex ">
                         <div class="profile-pic">
@@ -184,7 +184,7 @@
                             <p class="m-0 "> Jan 2021</p>
                         </div>
                     </div>
-                    <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non harum numquam rerum. Rerum nostrum laudantium eos eaque non dolorem?</p>
+                    <p class="mt-2 ">Contrary to other reviews, I was cold and couldn't figure how to turn on the heating... Otherwise amazing house.</p>
                 </div>
                 <div class="user-review col-12 col-lg-5 d-flex flex-column ">
                     <div class="profile-info d-flex ">
@@ -193,18 +193,42 @@
                         </div>
                         <div class="profile-text-info ms-3 d-flex flex-column justify-content-center ">
                             <h6 class="m-0 ">
-                                Noemi
+                                Enrico
                             </h6>
                             <p class="m-0 "> Jan 2021</p>
                         </div>
                     </div>
-                    <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non harum numquam rerum. Rerum nostrum laudantium eos eaque non dolorem?</p>
+                    <p class="mt-2 ">Amazing place. I've been here with my daughter to take pictures and we were not disappointed!</p>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <!-- place footer here -->
+        <div class="container-fluid footer">
+            <div class="container ">
+                <div class="row pt-4 d-flex flex-sm-column flex-lg-row ">
+                    <div class="col-lg-6 col-12  d-flex gap-2 footer-left-menu align-items-center">
+                        <p class="m-0 ">© 2024 Airbnb, Inc.</p>
+                        <span>·</span>
+                        <a href="#">Privacy</a>
+                        <span>·</span>
+                        <a href="#">Termini</a>
+                        <span>·</span>
+                        <a href="#">Mappa del sito</a>
+                        <span>·</span>
+                        <a href="#">Dettagli dell'azienda</a>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex gap-3 footer-right-menu align-items-center justify-content-lg-end justify-content-sm-center mt-3 mt-lg-0">
+                        <i class="fa-solid fa-globe"></i>
+                        <p class="m-0">Italiano (IT)</p>
+                        <p class="m-0 ">€ EUR</p>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

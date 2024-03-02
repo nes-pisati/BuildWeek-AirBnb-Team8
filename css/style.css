@@ -136,10 +136,6 @@ h3 {
     border-top-left-radius: 15px;
 }
 
-.left-date-input:active {
-    border: 3px solid #FF385C;
-}
-
 .right-date-input {
     border-top-right-radius: 15px;
 }
@@ -177,6 +173,49 @@ h3 {
 .review-text p {
     color: #696969;
 }
+
+.comment-field {
+    height: 150px
+}
+
+.review-field input {
+    border: 1px solid #8a8888;
+    border-radius: 5px;
+}
+
+.review-field select {
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #F7F7F7;
+    height: 100px;
+}
+
+.footer-left-menu {
+    font-size: 0.8em;
+    color: #696969;
+}
+
+.footer-left-menu a {
+    text-decoration: none;
+    color: #696969;
+}
+
+.footer-right-menu i {
+    font-size: 1.3em;
+}
+
+.footer-right-menu p {
+    font-weight: 400;
+}
+
+/*ANIMAZIONI*/
+
+.booking-btn:hover{
+    background-color: #be2c47;
+}
+
 
 @media screen and (max-width:600px){
 
@@ -221,5 +260,10 @@ h3 {
 
     .reservation-form {
         margin-right: 0;
+    }
+
+    .footer-left-menu {
+        font-size: 0.7em;
+        color: #696969;
     }
 }
