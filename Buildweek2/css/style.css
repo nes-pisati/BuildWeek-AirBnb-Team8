@@ -29,3 +29,17 @@ body{
     background-color: #f1f1f1
     padding: 8px
 }
+
+.imgContainer img{
+    height: 180px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 1400px) {
+    .imgContainer img {
+      min-height: 180px;
+      min-width: 230px
+    }
+  }
