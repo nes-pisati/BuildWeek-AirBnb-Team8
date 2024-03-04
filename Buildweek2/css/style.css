@@ -16,18 +16,25 @@ body{
     border: none;
     background-color: red;
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 29px;
     text-align: center;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+}
+
+.buttonRed:hover{
+    cursor: pointer;
 }
 
 .housesButton button{
     border-radius: 20px;
     border: 1px solid gray;
     font-weight: 200;
-    background-color: #f1f1f1
-    padding: 8px
+    background-color: #f1f1f1;
 }
 
 .imgContainer img{
@@ -36,10 +43,13 @@ body{
     border-radius: 10px;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
 @media screen and (min-width: 1400px) {
     .imgContainer img {
       min-height: 180px;
       min-width: 230px
     }
+  }
+
+  svg:hover{
+    cursor: pointer;
   }
