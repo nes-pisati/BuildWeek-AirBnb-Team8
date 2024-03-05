@@ -217,10 +217,10 @@ h3 {
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
 
     .images-wrapper {
-        height: 850px!important;
+        height: 900px!important;
         display: flex;
         align-items: center;
     }
@@ -260,10 +260,26 @@ h3 {
 
     .reservation-form {
         margin-right: 0;
+        padding-bottom: 5%;
     }
 
     .footer-left-menu {
         font-size: 0.7em;
         color: #696969;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .footer-right-menu {
+        justify-content: center;
+    }
+
+    .footer-right-menu i {
+        font-size: 1em;
+    }
+    
+    .footer-right-menu p {
+        font-weight: 400;
+        font-size: 0.9em;
     }
 }
